@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0baed6;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+
+.cta-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.cta-left a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-left a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+}
+/* Container et form style*/
+.container {
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    margin-bottom: 20px; 
+    text-align: center; 
+    text-decoration: underline;
+    font-family: Impact, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+input[type="text"], input[type="email"], input[type="phone"], input[type="password"], input[type="submit"] {
+    width: 300px; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; 
+}
+
+input[type="submit"] {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+}
+
